@@ -118,7 +118,7 @@ material_cost = (pp_weight/100 * cost_rpp) + (input_poe/100 * cost_poe) + (input
 # 4. 主界面：数字工厂仪表盘
 # ==========================================
 
-st.title("🏭 中石化大连院PP回收改性·数字孪生工厂")
+st.title("🏭 中石化大连院PP改性·数字孪生工厂")
 st.markdown("基于机器学习算法，实时模拟配方与工艺对最终性能的影响。")
 
 # --- A. 实时预测 ---
@@ -225,3 +225,4 @@ with st.expander("💡 查看 AI 配方优化建议"):
     else:
 
         st.success("✅ 当前配方性能均衡，建议进行小试验证。")
+
