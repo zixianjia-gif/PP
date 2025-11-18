@@ -16,7 +16,7 @@ import plotly.express as px
 # 1. 页面配置与样式
 # ==========================================
 st.set_page_config(
-    page_title="大连院PP改性数字工厂 (Digital Factory)",
+    page_title="大连院PE改性数字工厂 (Digital Factory)",
     page_icon="🏭",
     layout="wide"
 )
@@ -225,5 +225,6 @@ with st.expander("💡 查看 AI 配方优化建议"):
     else:
 
         st.success("✅ 当前配方性能均衡，建议进行小试验证。")
+
 
 
